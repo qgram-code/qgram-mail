@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6982F93B0A96B22D2F122817 /* MailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F262E0BC71A595FE05C8C /* MailStore.swift */; };
+		62ECDEDC6A36E0C3EA75E25B /* QGramMailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE19BFA838E78C8C3514014 /* QGramMailApp.swift */; };
+		9C34B0FD97E1E2B1B5DBC996 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5DCC8B43FD8DEF2969984 /* RootView.swift */; };
+		545B7714C11FA558BC987F76 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A126144382B8D263D235B7 /* Session.swift */; };
+		222C2CEC9F5D12C83D9909C1 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDE739F45C71A37660AF23 /* SettingsStore.swift */; };
+		D7062ED4E5322D6C8EFFBD71 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB5ED71537E5447A32F39B /* Models.swift */; };
+		E51C1B14BABB037B738A7B97 /* QGramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E697DB651ED810981F27B /* QGramAPI.swift */; };
+		1BB8B7A4E0622F3E36E5614C /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861ACF9DD0886BB4AF0EF837 /* TokenStore.swift */; };
+		400B7F8F43EDA4522D3BE3B7 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1684167D21B0FF1CAFAC79D /* Components.swift */; };
+		DE638E5AF904B08F3909E9D7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B831AE88FBF9B6BC7B4D7055 /* Theme.swift */; };
+		A6932B948DBF7C56B77BE3C8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD03A05059251BBF80B59A0 /* LoginView.swift */; };
+		76C0294B36BA2695EFAF769B /* BlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68933D7990862898D833AC6 /* BlockedView.swift */; };
+		43B78AF677136023C10A314C /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE794A84BB4B3AC73E757C0F /* ComposeView.swift */; };
+		3975366DE5F235BCF210C233 /* FoldersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220E18CA7428D64DC7983D0 /* FoldersView.swift */; };
+		BF44D4CCD6A5B1607032559A /* MailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDA10296EEB49B0AE4F108D /* MailListView.swift */; };
+		545E240221A3067EBBCDE66E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE744EC2C5DAE3648D24F036 /* MessageView.swift */; };
+		0EA2E9A02C80DEE92B68545B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4A74DD3A97CFEB8703679 /* OnboardingView.swift */; };
+		30A072B07CBC44FBEA70570B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2457A62C89706F85C694867 /* SearchView.swift */; };
+		D461E8BF5AC6479FF996D9FB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610EC9F9E5266544340AF5E /* SettingsView.swift */; };
+		511899A6E0EFCCFC869A674C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105463B6B6D062102F280726 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38A007151ABE87CC01A5B6E9 /* QGramMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QGramMail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		327F262E0BC71A595FE05C8C /* MailStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailStore.swift; sourceTree = "<group>"; };
+		7FE19BFA838E78C8C3514014 /* QGramMailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGramMailApp.swift; sourceTree = "<group>"; };
+		03D5DCC8B43FD8DEF2969984 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		81A126144382B8D263D235B7 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		F8DDE739F45C71A37660AF23 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		81CB5ED71537E5447A32F39B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D79E697DB651ED810981F27B /* QGramAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGramAPI.swift; sourceTree = "<group>"; };
+		861ACF9DD0886BB4AF0EF837 /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		C1684167D21B0FF1CAFAC79D /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		B831AE88FBF9B6BC7B4D7055 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2CD03A05059251BBF80B59A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D68933D7990862898D833AC6 /* BlockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedView.swift; sourceTree = "<group>"; };
+		FE794A84BB4B3AC73E757C0F /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		2220E18CA7428D64DC7983D0 /* FoldersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersView.swift; sourceTree = "<group>"; };
+		5FDA10296EEB49B0AE4F108D /* MailListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailListView.swift; sourceTree = "<group>"; };
+		EE744EC2C5DAE3648D24F036 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		AFB4A74DD3A97CFEB8703679 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B2457A62C89706F85C694867 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D610EC9F9E5266544340AF5E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		105463B6B6D062102F280726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82F1240D5310FF634A4E3CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC9464EF9C88DA4E42A2F52 = {
+			isa = PBXGroup;
+			children = (
+				327F262E0BC71A595FE05C8C /* MailStore.swift */,
+				7FE19BFA838E78C8C3514014 /* QGramMailApp.swift */,
+				03D5DCC8B43FD8DEF2969984 /* RootView.swift */,
+				81A126144382B8D263D235B7 /* Session.swift */,
+				F8DDE739F45C71A37660AF23 /* SettingsStore.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D32FC85CF2077E19FEC97BF7 = {
+			isa = PBXGroup;
+			children = (
+				81CB5ED71537E5447A32F39B /* Models.swift */,
+				D79E697DB651ED810981F27B /* QGramAPI.swift */,
+				861ACF9DD0886BB4AF0EF837 /* TokenStore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D01EF2313026356EC60CF41A = {
+			isa = PBXGroup;
+			children = (
+				C1684167D21B0FF1CAFAC79D /* Components.swift */,
+				B831AE88FBF9B6BC7B4D7055 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		58B830DEE8E958F7E8076C2C = {
+			isa = PBXGroup;
+			children = (
+				2CD03A05059251BBF80B59A0 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		31D1D3AAD24F99C62C08208F = {
+			isa = PBXGroup;
+			children = (
+				D68933D7990862898D833AC6 /* BlockedView.swift */,
+			);
+			path = Blocked;
+			sourceTree = "<group>";
+		};
+		3C43567B977877BB7B975DA3 = {
+			isa = PBXGroup;
+			children = (
+				FE794A84BB4B3AC73E757C0F /* ComposeView.swift */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		A273E684067D0417D97FB88F = {
+			isa = PBXGroup;
+			children = (
+				2220E18CA7428D64DC7983D0 /* FoldersView.swift */,
+				5FDA10296EEB49B0AE4F108D /* MailListView.swift */,
+				EE744EC2C5DAE3648D24F036 /* MessageView.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		1AD2C5573020346A220E8D57 = {
+			isa = PBXGroup;
+			children = (
+				AFB4A74DD3A97CFEB8703679 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8181FCEBB1BCFB59CE25C1C1 = {
+			isa = PBXGroup;
+			children = (
+				B2457A62C89706F85C694867 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		54ED21AF78EEC29D703C2F68 = {
+			isa = PBXGroup;
+			children = (
+				D610EC9F9E5266544340AF5E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6A1FD513AC194AEB1DCE46C5 = {
+			isa = PBXGroup;
+			children = (
+				58B830DEE8E958F7E8076C2C /* Auth */,
+				31D1D3AAD24F99C62C08208F /* Blocked */,
+				3C43567B977877BB7B975DA3 /* Compose */,
+				A273E684067D0417D97FB88F /* Mail */,
+				1AD2C5573020346A220E8D57 /* Onboarding */,
+				8181FCEBB1BCFB59CE25C1C1 /* Search */,
+				54ED21AF78EEC29D703C2F68 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2CA8B550B51767EA06AA447E = {
+			isa = PBXGroup;
+			children = (
+				105463B6B6D062102F280726 /* Assets.xcassets */,
+				82F1240D5310FF634A4E3CE2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63FAD6E02EE1DCD39D30FE11 = {
+			isa = PBXGroup;
+			children = (
+				0AC9464EF9C88DA4E42A2F52 /* App */,
+				D32FC85CF2077E19FEC97BF7 /* Core */,
+				D01EF2313026356EC60CF41A /* DesignSystem */,
+				6A1FD513AC194AEB1DCE46C5 /* Features */,
+				2CA8B550B51767EA06AA447E /* Resources */,
+			);
+			path = QGramMail;
+			sourceTree = "<group>";
+		};
+		43931CF8D8FF624E4C75AE32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* QGramMail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C805EA5924C9AB1FA2EBEA = {
+			isa = PBXGroup;
+			children = (
+				63FAD6E02EE1DCD39D30FE11 /* QGramMail */,
+				43931CF8D8FF624E4C75AE32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* QGramMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A886B50DF087AEF7B87CDC65 /* Build configuration list for PBXNativeTarget "QGramMail" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QGramMail;
+			productName = QGramMail;
+			productReference = 38A007151ABE87CC01A5B6E9 /* QGramMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 26E84C2B3712F7DFAC8AD93F /* Build configuration list for PBXProject "QGramMail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+				en,
+				Base,
+			);
+			mainGroup = 91C805EA5924C9AB1FA2EBEA;
+			productRefGroup = 43931CF8D8FF624E4C75AE32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* QGramMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511899A6E0EFCCFC869A674C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6982F93B0A96B22D2F122817 /* MailStore.swift in Sources */,
+				62ECDEDC6A36E0C3EA75E25B /* QGramMailApp.swift in Sources */,
+				9C34B0FD97E1E2B1B5DBC996 /* RootView.swift in Sources */,
+				545B7714C11FA558BC987F76 /* Session.swift in Sources */,
+				222C2CEC9F5D12C83D9909C1 /* SettingsStore.swift in Sources */,
+				D7062ED4E5322D6C8EFFBD71 /* Models.swift in Sources */,
+				E51C1B14BABB037B738A7B97 /* QGramAPI.swift in Sources */,
+				1BB8B7A4E0622F3E36E5614C /* TokenStore.swift in Sources */,
+				400B7F8F43EDA4522D3BE3B7 /* Components.swift in Sources */,
+				DE638E5AF904B08F3909E9D7 /* Theme.swift in Sources */,
+				A6932B948DBF7C56B77BE3C8 /* LoginView.swift in Sources */,
+				76C0294B36BA2695EFAF769B /* BlockedView.swift in Sources */,
+				43B78AF677136023C10A314C /* ComposeView.swift in Sources */,
+				3975366DE5F235BCF210C233 /* FoldersView.swift in Sources */,
+				BF44D4CCD6A5B1607032559A /* MailListView.swift in Sources */,
+				545E240221A3067EBBCDE66E /* MessageView.swift in Sources */,
+				0EA2E9A02C80DEE92B68545B /* OnboardingView.swift in Sources */,
+				30A072B07CBC44FBEA70570B /* SearchView.swift in Sources */,
+				D461E8BF5AC6479FF996D9FB /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70DCC1EB255A5F3C8D9ED349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3DCEEC1E0EB17A5583B8E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB189EBE9D4E38495C3C7EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QGramMail/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.qgram.mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		032222C0BAA33BC7119DFAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QGramMail/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.qgram.mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E84C2B3712F7DFAC8AD93F /* Build configuration list for PBXProject "QGramMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DCC1EB255A5F3C8D9ED349 /* Debug */,
+				C3DCEEC1E0EB17A5583B8E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A886B50DF087AEF7B87CDC65 /* Build configuration list for PBXNativeTarget "QGramMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB189EBE9D4E38495C3C7EF5 /* Debug */,
+				032222C0BAA33BC7119DFAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

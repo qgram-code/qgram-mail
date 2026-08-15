@@ -73,7 +73,11 @@ final class Session: ObservableObject {
     private func finishLogin(token: String, user: QGramUser?) async throws {
         TokenStore.save(token)
         await api.setToken(token)
-        self.user = user ?? (try? await api.me())
+        if let user {
+            self.user = user
+        } else {
+            self.user = try? await api.me()
+        }
         await loadAccount()
     }
 

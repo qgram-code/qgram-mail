@@ -1,0 +1,48 @@
+name: Swift
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ios-mail/**"
+      - ".github/workflows/swift.yml"
+  pull_request:
+    paths:
+      - "ios-mail/**"
+      - ".github/workflows/swift.yml"
+
+jobs:
+  build:
+    runs-on: macos-15
+    defaults:
+      run:
+        working-directory: ios-mail
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_16.app/Contents/Developer
+
+      - name: Regenerate project (sanity check)
+        run: python3 scripts/generate_xcodeproj.py
+
+      - name: Show available simulators
+        run: xcrun simctl list devices available
+
+      - name: Build for iOS Simulator
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project QGramMail.xcodeproj \
+            -scheme QGramMail \
+            -destination "platform=iOS Simulator,name=iPhone 16,OS=latest" \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
+            build | xcpretty || xcodebuild \
+              -project QGramMail.xcodeproj \
+              -scheme QGramMail \
+              -destination "platform=iOS Simulator,name=iPhone 16,OS=latest" \
+              -configuration Debug \
+              CODE_SIGNING_ALLOWED=NO \
+              build

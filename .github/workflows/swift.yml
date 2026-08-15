@@ -27,29 +27,13 @@ jobs:
       - name: Regenerate project (sanity check)
         run: python3 scripts/generate_xcodeproj.py
 
-      - name: Show available simulators
-        run: xcrun simctl list devices available
-
-      - name: Resolve simulator destination
-        id: sim
-        run: |
-          UDID=$(xcrun simctl list devices available -j | jq -r '
-            .devices
-            | to_entries[]
-            | select(.key | contains("iOS"))
-            | .value[]
-            | select(.isAvailable == true and (.name | startswith("iPhone")))
-            | .udid
-          ' | head -n 1)
-          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
-
       - name: Build for iOS Simulator
         run: |
           set -o pipefail
           xcodebuild \
             -project QGramMail.xcodeproj \
             -scheme QGramMail \
-            -destination "id=${{ steps.sim.outputs.udid }}" \
+            -destination "generic/platform=iOS Simulator" \
             -configuration Debug \
             CODE_SIGNING_ALLOWED=NO \
             build
